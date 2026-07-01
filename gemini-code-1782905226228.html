@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA | Futuro Consciente</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <span class="cyber-tech">CIDADANIA</span><span class="cyber-ia">DIGITAL_</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#inicio">Início</a>
+            <a href="#deepfakes">Deepfakes</a>
+            <a href="#combate">Como Detectar</a>
+            <a href="#quiz">Desafio IA</a>
+            <button id="theme-toggle" class="btn-theme">Alternar Interface</button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <span class="badge">Educação Digital 2026</span>
+                <h1>O Impacto da IA na Verdade Social</h1>
+                <p>Navegar na era da Inteligência Artificial exige mais do que conexão: exige senso crítico. Descubra como os algoritmos moldam nossa percepção e como se proteger da desinformação em massa.</p>
+                <a href="#deepfakes" class="btn-primary">Explorar Ecossistema</a>
+            </div>
+        </section>
+
+        <section id="deepfakes" class="info-section">
+            <div class="section-title">
+                <h2>A Era da Redefinição Tecnológica</h2>
+                <p>O que acontece quando não podemos mais acreditar nos nossos próprios olhos e ouvidos?</p>
+            </div>
+            
+            <div class="grid-container">
+                <article class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>O que são Deepfakes?</h3>
+                    <p>São vídeos, áudios ou imagens gerados por algoritmos de Aprendizado Profundo (Deep Learning) que imitam rostos e vozes humanas com realismo assustador, substituindo pessoas reais em situações fictícias.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Fake News Automatizadas</h3>
+                    <p>Com o avanço das IAs generativas, a criação de notícias falsas foi industrializada. Bots coordenados conseguem criar e espalhar narrativas mentirosas em segundos, inflamando debates e distorcendo a realidade.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">⚠️</div>
+                    <h3>Riscos à Democracia</h3>
+                    <p>A manipulação midiática afeta desde reputações pessoais até eleições inteiras. Quando a sociedade perde a confiança nos fatos, a base da convivência democrática e digital fica profundamente ameaçada.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="combate" class="guide-section">
+            <div class="guide-container">
+                <div class="guide-text">
+                    <h2>Manual de Sobrevivência Digital</h2>
+                    <p>Não seja um replicador de desinformação. Siga as diretrizes de segurança cibernética para verificar mídias suspeitas:</p>
+                    <ul class="guide-list">
+                        <li><strong>Analise os detalhes:</strong> Deepfakes de vídeo costumam falhar em piscadas de olhos, sombras inconsistentes ou texturas de pele estranhas na transição do rosto.</li>
+                        <li><strong>Rastreie a fonte originária:</strong> Utilize ferramentas de busca reversa de imagens para descobrir onde e quando aquela mídia foi postada pela primeira vez.</li>
+                        <li><strong>Cruze as informações:</strong> Agências de checagem confiáveis e grandes portais de jornalismo são barreiras essenciais contra a manipulação.</li>
+                    </ul>
+                </div>
+                <div class="guide-graphic">
+                    <div class="cyber-box">
+                        <h4>Status do Sistema: Protegido</h4>
+                        <p>Desenvolva o hábito de desconfiar de conteúdos excessivamente emocionais ou alarmistas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="quiz-section">
+            <div class="section-title">
+                <h2>Mecanismo de Teste: Você é Imune à Desinformação?</h2>
+                <p>Responda às questões simuladas e teste suas habilidades de detecção de IA.</p>
+            </div>
+
+            <div class="quiz-wrapper">
+                <div id="quiz-container">
+                    <div class="quiz-step active" data-step="1">
+                        <h3>1. Um vídeo de um político famoso dizendo algo absurdo aparece na sua linha do tempo. Qual o primeiro passo correto?</h3>
+                        <div class="quiz-options">
+                            <button class="option-btn" data-correct="false">Compartilhar imediatamente para alertar seus amigos.</button>
+                            <button class="option-btn" data-correct="true">Procurar o mesmo vídeo em veículos de comunicação confiáveis antes de repassar.</button>
+                            <button class="option-btn" data-correct="false">Acreditar totalmente, afinal, em vídeo não dá para mentir.</button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-step" data-step="2">
+                        <h3>2. Qual destas é uma falha comum encontrada em fotos e rostos gerados inteiramente por IA?</h3>
+                        <div class="quiz-options">
+                            <button class="option-btn" data-correct="false">Qualidade de imagem muito baixa ou pixelada.</button>
+                            <button class="option-btn" data-correct="false">Presença obrigatória de marcas d'água gigantes.</button>
+                            <button class="option-btn" data-correct="true">Formatos bizarros nas orelhas, dentes desalinhados simetricamente ou acessórios (brincos) diferentes.</button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-step" data-step="3">
+                        <h3>3. O uso ético de ferramentas de Inteligência Artificial generativa envolve:</h3>
+                        <div class="quiz-options">
+                            <button class="option-btn" data-correct="true">Sempre sinalizar e documentar que o conteúdo foi criado ou auxiliado por uma IA.</button>
+                            <button class="option-btn" data-correct="
